@@ -28,6 +28,7 @@ export default function About() {
           Welcome to <span className="font-semibold">MyShop</span> — your go-to online store for stylish and affordable products.
           We’re passionate about combining quality, innovation, and design to bring you an enjoyable shopping experience.
         </p>
+        <p>ყველაფერი კარგად იქნება:) ნუ გეჩნიათ :D</p>
         <p className="text-gray-600 leading-relaxed mb-6">
           Our mission is simple: deliver great products that make your daily life easier and more enjoyable.
           From our humble beginnings, we’ve grown into a team dedicated to customer satisfaction and creativity.
