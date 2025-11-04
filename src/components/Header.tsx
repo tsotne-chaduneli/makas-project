@@ -1,21 +1,21 @@
 import { ShoppingCart, UserPlus } from "lucide-react"
+import { Link } from "react-router-dom"
 
 export default function Header() {
   return (
     <header className="bg-white shadow-md">
       <div className="container mx-auto flex items-center justify-between p-4">
-        
         {/* Logo */}
-        <div className="text-2xl font-bold text-blue-600">
+        <Link to="/" className="text-2xl font-bold text-blue-600">
           MyShop
-        </div>
+        </Link>
 
         {/* Navbar */}
         <nav className="hidden md:flex space-x-6 text-gray-700 font-medium">
-          <a href="#" className="hover:text-blue-600 transition">Home</a>
-          <a href="#" className="hover:text-blue-600 transition">Products</a>
-          <a href="#" className="hover:text-blue-600 transition">About</a>
-          <a href="#" className="hover:text-blue-600 transition">Contact</a>
+          <Link to="/" className="hover:text-blue-600 transition">Home</Link>
+          <Link to="/about" className="hover:text-blue-600 transition">About</Link>
+          <Link to="#" className="hover:text-blue-600 transition">Products</Link>
+          <Link to="#" className="hover:text-blue-600 transition">Contact</Link>
         </nav>
 
         {/* Buttons */}
