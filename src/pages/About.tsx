@@ -1,4 +1,4 @@
-import companyImg from "../assets/images/company.jpg"
+import companyImg from "../assets/images/office.jpg"
 
 export default function About() {
   return (
